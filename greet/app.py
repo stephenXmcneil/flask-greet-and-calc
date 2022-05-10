@@ -2,6 +2,8 @@ from flask import Flask
 
 app = Flask(__name__)
 
+# Addede accelaration
+
 @app.route('/welcome')
 def say_hello():
     # greet = """
